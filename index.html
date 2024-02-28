@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>graper js</title>
+   
+
+ <style>
+ </style>
+</head>
+<body id="setColor">
+ <input type="color" id="color_picker">
+ <script>
+    let inputvali = document.getElementById('color_picker')
+    inputvali.addEventListener('input',(e)=>{
+    let getbody = document.getElementById('setColor')
+     getbody.style.backgroundColor=`${inputvali.value}`
+   
+    })
+   </script>
+
+</body>
+
+</html>
